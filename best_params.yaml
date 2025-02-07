@@ -1,0 +1,7 @@
+units: 128
+dropout_rate: 0.20738893400771446
+learning_rate: 0.001748571344789048
+batch_size: 64
+epochs: 50
+lstm_layers: 2
+activation: relu
