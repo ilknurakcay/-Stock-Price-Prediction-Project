@@ -12,8 +12,8 @@ This project implements a deep learning model using LSTM (Long Short-Term Memory
   - On-Balance Volume (OBV)
   - Fibonacci Retracement Levels
   - Stochastic Oscillator
-- Hyperparameter optimization using Optuna
 - Time series data preprocessing
+- Hyperparameter optimization using Optuna
 - Model evaluation with comprehensive metrics
 
 
@@ -21,7 +21,7 @@ This project implements a deep learning model using LSTM (Long Short-Term Memory
 ```
 ├── best_params.yaml         # Best hyperparameters from optimization
 ├── hyperparameter.py       # Hyperparameter optimization using Optuna
-├── predict_34.py           # Main prediction script
+├── predict.py              # Main prediction script
 └── preprocess.py           # Data preprocessing and feature engineering
 ```
 
@@ -59,7 +59,7 @@ python hyperparameter.py
 
 3. Run the prediction model:
 ```bash
-python predict_34.py
+python predict.py
 ```
 
 ## Model Architecture
