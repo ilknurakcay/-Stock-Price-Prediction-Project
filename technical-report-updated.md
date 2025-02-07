@@ -122,8 +122,8 @@ The model's performance is visualized in the provided graph showing real vs pred
    - Tendency to smooth out extreme price movements
    - Occasional deviation during highly volatile periods
 
-## 5.Model Evaluation Metrics
-### 5.1 Accuracy Metrics
+## 5.Model Evaluation Metrics 
+### 5.1 Accuracy Metrics 
 1. **Mean Absolute Error (MAE)**
    - Mean Absolute Error (MAE): 15.68
    - Average absolute difference between predicted and actual prices
