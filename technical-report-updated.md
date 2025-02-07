@@ -115,7 +115,6 @@ The model's performance is visualized in the provided graph showing real vs pred
 1. **Model Strengths**
    - Reliable prediction of overall trend direction
    - Good accuracy during periods of steady price movement
-   - Effective capture of medium-term price patterns
 
 2. **Potential Limitations**
    - Some delay in responding to sharp price changes
@@ -142,7 +141,7 @@ The model's performance is visualized in the provided graph showing real vs pred
 
 
 
-## 5.2 Model Fit Metrics**
+## 5.2 Model Fit Metrics   
 1. **R-squared (R2)**
    - R-squared (R2): 0.822
    - Model explains 82.2% of price variance
