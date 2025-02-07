@@ -98,7 +98,6 @@ def objective(trial):
 
     history = model.fit(generator, epochs=epochs, batch_size=batch_size, validation_data=test_generator, callbacks=[early_stopping], verbose=0)  
 
-    # Test seti üzerinde değerlendirme
     loss = model.evaluate(test_generator, verbose=0)
     return loss
 
