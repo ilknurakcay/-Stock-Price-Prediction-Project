@@ -1,4 +1,7 @@
-# NVIDIA Stock Price Prediction Project - Technical Report
+# NVIDIA Stock Price Prediction Project 
+
+Project Overview  
+This project explores the application of Long Short-Term Memory (LSTM) neural networks for predicting stock prices, specifically focusing on NVIDIA (NVDA) stock. The implementation combines various technical indicators with deep learning techniques to create a comprehensive prediction model. The project demonstrates the practical application of machine learning concepts in financial forecasting and showcases the integration of multiple data processing and modeling techniques. 
 
 ## 1. Data Preprocessing
 
@@ -76,16 +79,16 @@ Used Optuna for hyperparameter optimization with the following parameters:
 #### Best Parameters Found:
 ```yaml
 units: 128
-dropout_rate: 0.237
-learning_rate: 2.28e-05
+dropout_rate: 0.20738893400771446
+learning_rate: 0.001748571344789048
 batch_size: 64
-epochs: 40
-lstm_layers: 4
-activation: tanh
+epochs: 50
+lstm_layers: 2
+activation: relu
 ```
 
 ## 4. Model Performance Analysis
-
+![Açıklama metni](/Users/ilknurakcay/Documents/GitHub/-Stock-Price-Prediction-Project/pre_vs_real.PNG)
 ### 4.1 Prediction Results Visualization
 The model's performance is visualized in the provided graph showing real vs predicted close prices for NVIDIA stock. Key observations from the visualization:
 
