@@ -125,43 +125,42 @@ The model's performance is visualized in the provided graph showing real vs pred
 ## 5.Model Evaluation Metrics**
 ### 5.1 Accuracy Metrics**
 1. **Mean Absolute Error (MAE)**
-
-
-   Mean Absolute Error (MAE): 15.68
-
-   -Average absolute difference between predicted and actual prices
-   -Indicates predictions typically off by ~$15.68
+   - Mean Absolute Error (MAE): 15.68
+   - Average absolute difference between predicted and actual prices
+   - Indicates predictions typically off by ~$15.68
 
 2. **Root Mean Square Error (RMSE)**
+   - Root Mean Square Error (RMSE): 17.50
+   - Higher than MAE suggests presence of larger prediction errors
+   - Penalizes larger errors more heavily
 
-   Root Mean Square Error (RMSE): 17.50
 
-   -Higher than MAE suggests presence of larger prediction errors
-   -Penalizes larger errors more heavily
 
-2. **Mean Absolute Percentage Error (MAPE)**
+3. **Mean Absolute Percentage Error (MAPE)**
 
-   Mean Absolute Percentage Error (MAPE): 10.00%
 
-   -Shows average percentage deviation of predictions
-   -Generally acceptable for stock price prediction
+   - Mean Absolute Percentage Error (MAPE): 10.00%
+   - Shows average percentage deviation of predictions
+   - Generally acceptable for stock price prediction
+
+
 
 
 ## 5.2 Model Fit Metrics**
 1. **R-squared (R2)**
 
 
-R-squared (R2): 0.822
+   R-squared (R2): 0.822
 
-Model explains 82.2% of price variance
-Indicates strong predictive performance
+   Model explains 82.2% of price variance
+   Indicates strong predictive performance
 
-1. **Maximum Drawdown**
+2. **Maximum Drawdown**
 
-Maximum Drawdown: -28.10%
+   Maximum Drawdown: -28.10%
 
-Largest observed drop from peak in prediction accuracy
-Suggests model vulnerability during volatile periods
+   argest observed drop from peak in prediction accuracy
+   Suggests model vulnerability during volatile periods
 
 
 ## 6. Conclusion
