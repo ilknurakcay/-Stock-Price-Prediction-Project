@@ -88,7 +88,6 @@ activation: relu
 ```
 
 ## 4. Model Performance Analysis
-![Gerçek ve Tahmin Edilen Değerler](https://ibb.co/sJd2ZCqN)
 ### 4.1 Prediction Results Visualization
 The model's performance is visualized in the provided graph showing real vs predicted close prices for NVIDIA stock. Key observations from the visualization:
 
@@ -123,25 +122,48 @@ The model's performance is visualized in the provided graph showing real vs pred
    - Tendency to smooth out extreme price movements
    - Occasional deviation during highly volatile periods
 
-## 5. Future Improvements
+## 5.Model Evaluation Metrics**
+## 5.1 Accuracy Metrics**
+1. **Mean Absolute Error (MAE)**
 
-1. **Model Enhancements**
-   - Implement attention mechanisms for better handling of sudden price changes
-   - Add ensemble methods to improve prediction accuracy
-   - Explore hybrid models combining LSTM with other architectures
 
-2. **Feature Engineering**
-   - Include sentiment analysis from news and social media
-   - Add market sector indicators
-   - Incorporate macroeconomic factors
+Mean Absolute Error (MAE): 15.68
 
-3. **Data Improvements**
-   - Include higher frequency data
-   - Add order book data
-   - Consider cross-asset correlations
+-Average absolute difference between predicted and actual prices
+-Indicates predictions typically off by ~$15.68
+
+2. **Root Mean Square Error (RMSE)**
+
+Root Mean Square Error (RMSE): 17.50
+
+-Higher than MAE suggests presence of larger prediction errors
+-Penalizes larger errors more heavily
+
+2. **Mean Absolute Percentage Error (MAPE)**
+
+Mean Absolute Percentage Error (MAPE): 10.00%
+
+-Shows average percentage deviation of predictions
+-Generally acceptable for stock price prediction
+
+
+## 5.2 Model Fit Metrics**
+1. **R-squared (R2)**
+
+
+R-squared (R2): 0.822
+
+Model explains 82.2% of price variance
+Indicates strong predictive performance
+
+1. **Maximum Drawdown**
+
+Maximum Drawdown: -28.10%
+
+Largest observed drop from peak in prediction accuracy
+Suggests model vulnerability during volatile periods
+
 
 ## 6. Conclusion
 The LSTM model demonstrates strong performance in predicting NVIDIA stock prices, as evidenced by the close alignment between predicted and actual values in the visualization. While the model excels at capturing overall trends and sustained price movements, there is room for improvement in handling sudden price changes and extreme market conditions. The comprehensive technical indicator set and optimized hyperparameters contribute to the model's robust performance.
 
----
-Generated: February 2025
