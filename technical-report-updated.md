@@ -119,17 +119,17 @@ The model's performance is visualized in the provided graph showing real vs pred
 2. **Potential Limitations**
    - Some delay in responding to sharp price changes
    - Occasional deviation during highly volatile periods
-
+     
 ## 5.Model Evaluation Metrics 
 ### 5.1 Accuracy Metrics 
 1. **Mean Absolute Error (MAE)**
    - Mean Absolute Error (MAE): 15.68
    - Average absolute difference between predicted and actual prices
-
+               
 2. **Root Mean Square Error (RMSE)**
    - Root Mean Square Error (RMSE): 17.50
    - Higher than MAE suggests presence of larger prediction errors
-
+ 
 
 3. **Mean Absolute Percentage Error (MAPE)**
 
