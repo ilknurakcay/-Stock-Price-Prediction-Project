@@ -88,7 +88,7 @@ activation: relu
 ```
 
 ## 4. Model Performance Analysis
-![Açıklama metni](/Users/ilknurakcay/Documents/GitHub/-Stock-Price-Prediction-Project/pre_vs_real.PNG)
+![Gerçek ve Tahmin Edilen Değerler](pre_vs_real.PNG)
 ### 4.1 Prediction Results Visualization
 The model's performance is visualized in the provided graph showing real vs predicted close prices for NVIDIA stock. Key observations from the visualization:
 
