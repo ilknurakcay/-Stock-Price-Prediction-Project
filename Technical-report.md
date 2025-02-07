@@ -150,7 +150,6 @@ The model's performance is visualized in the provided graph showing real vs pred
 2. **Maximum Drawdown**
    - Maximum Drawdown: -28.10%
    - Largest observed drop from peak in prediction accuracy
-   - Suggests model vulnerability during volatile periods
 
 
 
