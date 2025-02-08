@@ -38,7 +38,7 @@ This project implements a deep learning model using LSTM (Long Short-Term Memory
 ## Installation
 1. Clone the repository:
 ```bash
-git clone [https://github.com/ilknurakcay/-Stock-Price-Prediction-Project.git]
+git clone https://github.com/ilknurakcay/-Stock-Price-Prediction-Project.git
 ```
 
 2. Install required packages:
