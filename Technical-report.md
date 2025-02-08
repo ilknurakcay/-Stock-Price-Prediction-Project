@@ -88,6 +88,7 @@ activation: relu
 ```
 
 ## 4. Model Performance Analysis
+![ Plot](Prediction_Results_Visualization.png)
 ### 4.1 Prediction Results Visualization
 The model's performance is visualized in the provided graph showing real vs predicted close prices for NVIDIA stock. Key observations from the visualization:
 
